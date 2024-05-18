@@ -1,0 +1,133 @@
+*{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Unbounded:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    background-color: #ffffff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+.header.sticky {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+   background-color: #ffffff;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 4.3rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, margin 0.3s ease-in-out; /* Added margin transition */
+    margin-left: 0; /* Initially no margin */
+}
+
+.header.sticky .logo .img2 {
+    opacity: 1;
+    margin-left: 0rem; /* Adjust margin to create visual order change */
+}
+
+.header .logo .img3 {
+    opacity: 1;
+    margin-left: -6rem; /* Adjust margin to create visual order change */
+}
+
+.header.sticky .logo .img3 {
+    opacity: 0;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+
+.header .navbar button{
+    outline:none ;
+    transition: 1s;
+}
+
+.header .navbar button:active{
+    transition: 500ms;
+    background-color: #00000065;
+}
+
+.header.sticky .navbar button:active{
+    transition: 500ms;
+    background-color: #000000bf;
+}
+
+.header.sticky .navbar button{
+    outline: .2rem solid rgba(33, 33, 33, 0.333) ;
+}
+
+.header .navbar-nav button .navbar-toggler-icon {
+    color: #fff;
+}
+
+.header .navbar-nav li {
+    padding: 0 1rem;
+}
+
+.header .navbar-nav .active {
+    transition: 500ms;
+    background-color: rgba(215, 215, 215, 0.343);
+    border-radius: 3rem;
+}
+
+.header.sticky .navbar-nav .active {
+    background-color: rgba(215, 215, 215, 0.343);
+}
+
+.header.sticky .navbar-nav .active a{
+    color: #ffffff;
+}
+
+.header .navbar-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.343);
+    border-radius: 3rem;
+}
+
+.header.sticky .navbar-nav li:hover {
+    background-color: #e1e1e1;
+    border-radius: 3rem;
+    transition: background-color 0.3s ease-in-out; /* Added transition for background-color */
+}
+
+.header .navbar-nav li a {
+    color: #ffffff;
+    transition: color 0.3s ease-in-out; /* Added transition for color */
+}
+
+.header.sticky .navbar-nav li a {
+    transition: color 0.1s ease-in-out; /* Added transition for color */
+    color: #ffffff;
+}
+.header.sticky .navbar-nav li:hover a {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.cr7{
+    text-align: center;
+    padding: 10rem 0 5rem;
+}
