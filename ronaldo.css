@@ -257,3 +257,9 @@
     background-color: transparent;
 }
 
+.section1{
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #ffffff;
+}
