@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Unbounded:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Unbounded:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -193,6 +193,7 @@
     text-decoration: none;
   }
   
+
   /* Style The Dropdown Button */
   .dropbtn {
     color: white;
@@ -212,9 +213,11 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000;
-    height: 500px;
-    min-width: 260px;
+    background-color: #212121;
+    padding: 5px;
+    height: 432px;
+    min-width: 207px;
+    left: -70%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -224,12 +227,14 @@
     color: white;
     padding: 10px 16px;
     text-decoration: none;
+    text-align: left;
     display: block;
   }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: #353535
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #353535;
+    text-decoration: none;
   }
   
   /* Show the dropdown menu on hover */
