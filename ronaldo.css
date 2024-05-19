@@ -264,3 +264,24 @@
     border-radius: 1rem;
     border: 1px solid #ffffff;
 }
+
+@media screen and (max-width: 1150px) {
+    .section0 h1{
+      font-size: 3rem;
+    }  
+  }
+
+  
+@media screen and (max-width: 1000px) {
+    .section0 h1{
+      font-size: 2rem;
+    }  
+  }
+
+  
+@media screen and (max-width: 840px) {
+    .section0 h1{
+      font-size: 1rem;
+      width: 100px;
+    }  
+  }
