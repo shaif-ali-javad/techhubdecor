@@ -25,24 +25,12 @@
 }
 
 .header .logo img {
-    height: 4.3rem;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, margin 0.3s ease-in-out; /* Added margin transition */
+    height: 2.7rem;
     margin-left: 0; /* Initially no margin */
 }
 
-.header.sticky .logo .img2 {
-    opacity: 1;
-    margin-left: 0rem; /* Adjust margin to create visual order change */
-}
-
 .header .logo .img3 {
-    opacity: 1;
-    margin-left: -6rem; /* Adjust margin to create visual order change */
-}
-
-.header.sticky .logo .img3 {
-    opacity: 0;
+    margin-left: 2rem; /* Adjust margin to create visual order change */
 }
 
 @keyframes fadeInOut {
@@ -259,7 +247,8 @@
     padding-right: 5%;
     padding-top: 10%;
     height: 34.3rem;
-    background-color: #00000094;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  /* background-color: #00000094; */
     text-align: left;
 }
 
@@ -267,3 +256,4 @@
     font-size: 4rem;
     background-color: transparent;
 }
+
