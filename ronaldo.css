@@ -132,25 +132,6 @@
 }
 
 
-/* heading */
-
-.cr7{
-    text-align: center;
-    padding: 10rem 0 5rem;
-}
-
-.lm10{
-    padding: 50px;
-    margin: auto;
-    text-align: center;
-}
-
-
-.section{
-    margin: 0rem 0rem 5rem;
-}
-
-
 #navbar li {
     list-style-type: none;
     color: white;
@@ -245,3 +226,44 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   /* .dropdown:hover .dropbtn {
   } */
+
+
+  
+/* heading */
+
+.cr7{
+    text-align: center;
+    padding: 0rem 0 5rem;
+}
+
+.lm10{
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.section{
+    margin: 0rem 0rem 5rem;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    margin-top: -10rem;
+}
+
+.section0{
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    height: 34.3rem;
+    background-color: #00000094;
+    text-align: left;
+}
+
+.section0 h1{
+    font-size: 4rem;
+    background-color: transparent;
+}
