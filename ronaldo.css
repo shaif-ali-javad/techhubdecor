@@ -9,7 +9,7 @@
 
 
 .header {
-    background-color: #ffffff;
+    background-color: #09102a;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
     max-width: 100%;
 }
@@ -115,8 +115,11 @@
 } 
 
 *{
-    background-color: #09102a;
     color: white;
+}
+
+.lm10{
+    background-color: #09102a;
 }
 
 
@@ -227,12 +230,17 @@
 .lm10{
     padding: 50px;
     margin: auto;
+    margin-top: -10rem;
     text-align: center;
 }
 
 
 .section{
-    margin: 0rem 0rem 5rem;
+    margin: 10rem 0rem 5rem;
+    background-color: #0c0d35;
+    padding: 3.5rem 2rem 2rem;
+    border-radius: 20px;
+    border: 1px solid #4456b7;
 }
 
 .img-flui{
@@ -295,8 +303,9 @@
   .img-flui{
       width: 800px;
     height: 500px;
-  }}
-
-  .img-flu{
-    width: 50%;
   }
+}
+
+.img-flu{
+    width: 30%;
+}
