@@ -1,27 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Unbounded:wght@500&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&family=Unbounded:wght@500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    /*
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Unbounded', cursive; */
 }
 
+
+
 .header {
-    background-color: #3434344a;
-    transition: 500ms;
+    background-color: #09102a;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
     max-width: 100%;
 }
 
 .header.sticky {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
-   background-color: #ffffff;
+   background-color: #09102a;
 }
 
 .header .logo {
@@ -30,24 +25,12 @@
 }
 
 .header .logo img {
-    height: 4.3rem;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out, margin 0.3s ease-in-out; /* Added margin transition */
+    height: 2.7rem;
     margin-left: 0; /* Initially no margin */
 }
 
-.header.sticky .logo .img2 {
-    opacity: 1;
-    margin-left: 0rem; /* Adjust margin to create visual order change */
-}
-
 .header .logo .img3 {
-    opacity: 1;
-    margin-left: -6rem; /* Adjust margin to create visual order change */
-}
-
-.header.sticky .logo .img3 {
-    opacity: 0;
+    margin-left: 2rem; /* Adjust margin to create visual order change */
 }
 
 @keyframes fadeInOut {
@@ -89,16 +72,16 @@
 
 .header .navbar-nav .active {
     transition: 500ms;
-    background-color: rgba(0, 0, 0, 0.343);
+    background-color: rgba(215, 215, 215, 0.343);
     border-radius: 3rem;
 }
 
 .header.sticky .navbar-nav .active {
-    background-color: #04536b;
+    background-color: rgba(215, 215, 215, 0.343);
 }
 
 .header.sticky .navbar-nav .active a{
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .navbar-nav li:hover {
@@ -107,24 +90,134 @@
 }
 
 .header.sticky .navbar-nav li:hover {
-    background-color: #04536b;
+    background-color: #e1e1e1;
     border-radius: 3rem;
     transition: background-color 0.3s ease-in-out; /* Added transition for background-color */
 }
 
 .header .navbar-nav li a {
-    color: #fff;
+    color: #ffffff;
     transition: color 0.3s ease-in-out; /* Added transition for color */
 }
 
 .header.sticky .navbar-nav li a {
     transition: color 0.1s ease-in-out; /* Added transition for color */
-    color: #000000;
+    color: #ffffff;
 }
 .header.sticky .navbar-nav li:hover a {
     color: #fff;
     transition: color 0.3s ease-in-out;
+} */
+
+
+.section-heading{
+    padding: 10rem 0 5rem;
+} 
+
+*{
+    /* color: white; */
 }
+
+.lm10{
+    /* background-color: #09102a; */
+}
+
+
+#navbar li {
+    list-style-type: none;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #navbar #active::after,
+  #navbar li:hover::after {
+    position: absolute;
+    content: "";
+    background-color: #17cf97;
+    width: 30%;
+    height: 2px;
+    bottom: 5px;
+    left: 20px;
+  }
+  #navbar #active,
+  #navbar li {
+    cursor: pointer;
+  }
+  
+  #mobile {
+    display: none;
+  }
+  
+  #mobile i {
+    color: #fff;
+    margin: 21.3px 0;
+  }
+  
+  @media screen and (max-width: 896px) {
+    #mobile {
+      display: block;
+      cursor: pointer;
+    }  
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #212121;
+    padding: 5px;
+    height: 432px;
+    min-width: 207px;
+    left: -70%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+  }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #353535;
+    text-decoration: none;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {
+  } */
+
 
 
 .image0 {
