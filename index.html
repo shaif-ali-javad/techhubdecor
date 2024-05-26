@@ -65,8 +65,8 @@
 
    <div>
 
-     <div class="container">
-       <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+     <div class="containe img-scroll-0">
+       <!-- <img src="image/services/interior-decoration-inspired-by-mexican-folklore.jpg" alt="Avatar" class="image"> -->
       <div class="overlay">
         <div class="text">
           <h1>LIVING
@@ -76,8 +76,8 @@
       </div>
     </div>
 
-    <div class="container mt-5">
-      <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+    <div class="containe img-scroll-1">
+      <!-- <img src="image/services/room-house-decorated-with-brazilian-folklore-design.jpg" alt="Avatar" class="image"> -->
       <div class="overlay">
         <div class="text">
           <h1>BEDROOM DECOR        </h1> 
@@ -87,8 +87,8 @@
         </div>
       </div>
 
-      <div class="container mt-5">
-        <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+      <div class="containe img-scroll-2">
+        <!-- <img src="image/services/realistic-modern-interior-design.jpg" alt="Avatar" class="image"> -->
        <div class="overlay">
          <div class="text">
           <h1>WARDROBE DESIGNS</h1> 
@@ -99,8 +99,8 @@
        </div>
      </div>
 
-     <div class="container mt-5">
-      <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+     <div class="containe img-scroll-3">
+      <!-- <img src="image/services/minimalist-kitchen-interior-design.jpg" alt="Avatar" class="image"> -->
      <div class="overlay">
        <div class="text">
         <h1>KITCHEN DECOR</h1> 
@@ -110,8 +110,8 @@
      </div>
    </div>
 
-   <div class="container mt-5">
-    <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+   <div class="containe img-scroll-4">
+    <!-- <img src="image/services/small-bathroom-with-modern-style-ai-generated.jpg" alt="Avatar" class="image"> -->
    <div class="overlay">
      <div class="text">
       <h1>BATHROOM DECOR</h1> 
@@ -121,8 +121,8 @@
    </div>
  </div>
 
- <div class="container mt-5">
-  <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+ <div class="containe img-scroll-5">
+  <!-- <img src="image/services/shoe-rack-indoors-still-life.jpg" alt="Avatar" class="image"> -->
  <div class="overlay">
    <div class="text">
     <h1>HOME
@@ -135,8 +135,8 @@
  </div>
 </div>
 
-<div class="container mt-5">
-  <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+<div class="containe img-scroll-6">
+  <!-- <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image"> -->
  <div class="overlay">
    <div class="text">
     <h1>WALL
@@ -148,8 +148,8 @@
  </div>
 </div>
 
-<div class="container mt-5">
-  <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+<div class="containe img-scroll-7">
+  <!-- <img src="image/services/view-luxurious-hotel-interior-space.jpg" alt="Avatar" class="image"> -->
  <div class="overlay">
    <div class="text">
     <h1>FALSE
@@ -161,8 +161,8 @@
  </div>
 </div>
 
-<div class="container mt-5">
-  <img src="image/services/close-up-details-wood-surface.jpg" alt="Avatar" class="image">
+<div class="containe img-scroll-8">
+  <!-- <img src="image/services/rustic-patio-furniture-house-deck-with-vegetation.jpg" alt="Avatar" class="image"> -->
  <div class="overlay">
    <div class="text">
     <h1>DECORATIVE LIGHTING</h1> 
@@ -440,6 +440,25 @@
    <div class="section-5">
     <h1>Over 100,000 designs completed for happy clients.</h1>
    </div>
+
+   <script>
+    let lastScrollTop = 0;
+    const image = document.querySelector('.image');
+
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            image.style.transform = 'translate(-50%, 60%)'; // Move image down
+        } else {
+            // Scrolling up
+            image.style.transform = 'translate(-50%, 40%)'; // Move image up
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    });
+</script>
 
 
   <script>

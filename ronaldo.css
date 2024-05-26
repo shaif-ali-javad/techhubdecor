@@ -416,12 +416,72 @@
 } */
 
 
-.container {
+.containe {
   position: relative;
   width: 100%;
   height: 300px;
   overflow: hidden;
 }
+
+.img-scroll-0 {
+  background-image: url('image/services/rustic-patio-furniture-house-deck-with-vegetation.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-scroll-1 {
+  background-image: url('image/services/room-house-decorated-with-brazilian-folklore-design.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-scroll-2 {
+  background-image: url('image/services/realistic-modern-interior-design.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img-scroll-3 {
+  background-image: url('image/services/minimalist-kitchen-interior-design.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.img-scroll-4 {
+  background-image: url('image/services/small-bathroom-with-modern-style-ai-generated.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.img-scroll-5 {
+  background-image: url('image/services/shoe-rack-indoors-still-life.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.img-scroll-6 {
+  background-image: url('image/services/close-up-details-wood-surface.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.img-scroll-7 {
+  background-image: url('image/services/view-luxurious-hotel-interior-space.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.img-scroll-8 {
+  background-image: url('image/services/rustic-patio-furniture-house-deck-with-vegetation.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 .image {
   padding: 0;
@@ -435,16 +495,16 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 15px;
+  left: 0px;
   right: 0;
   height: 100%;
-  width: 97.4%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #304561;
 }
 
-.container:hover .overlay {
+.containe:hover .overlay {
   opacity: 1;
 }
 
