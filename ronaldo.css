@@ -351,6 +351,26 @@
 
 }
 
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 20px;
+    width: 100%;
+  }
+  .text h1{
+    font-size: 20px;
+  }
+  .text p{
+    font-size: 13px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .a{
+  font-size: 13px;  
+  padding: 0;
+  margin: 0;
+  }
+}
+
 .img-flu{
     width: 70%;
 }
@@ -422,66 +442,6 @@
   height: 300px;
   overflow: hidden;
 }
-
-/* 
-.img-scroll-0 {
-  background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.img-scroll-1 {
-  background-image: url('image/services/img/room-house-decorated-with-brazilian-folklore-design-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.img-scroll-2 {
-  background-image: url('image/services/img/realistic-modern-interior-design-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.img-scroll-3 {
-  background-image: url('image/services/img/minimalist-kitchen-interior-design-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
-.img-scroll-4 {
-  background-image: url('image/services/img/small-bathroom-with-modern-style-ai-generated-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
-.img-scroll-5 {
-  background-image: url('image/services/img/shoe-rack-indoors-still-life-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
-.img-scroll-6 {
-  background-image: url('image/services/img/close-up-details-wood-surface-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
-.img-scroll-7 {
-  background-image: url('image/services/img/view-luxurious-hotel-interior-space-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
-.img-scroll-8 {
-  background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-} */
 
 
 .image {
