@@ -423,6 +423,7 @@
   overflow: hidden;
 }
 
+/* 
 .img-scroll-0 {
   background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
   background-size: cover;
@@ -480,7 +481,7 @@
   background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
   background-size: cover;
   background-attachment: fixed;
-}
+} */
 
 
 .image {
@@ -488,7 +489,7 @@
   margin: 0;
   display: block;
   width: 100%;
-  height: auto;
+  height: 600px;
 }
 
 .overlay {
@@ -499,14 +500,18 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #304561;
+  /* opacity: 1; */
+  /* transition: .5s ease; */
+  background-color: #3045618a;
 }
 
-.containe:hover .overlay {
-  opacity: 1;
+a{
+  text-decoration: none;
 }
+
+/* .containe:hover .overlay {
+  opacity: 1;
+} */
 
 .text {
   color: white;
@@ -521,6 +526,10 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text-black{
+  color: black;
 }
 
 
