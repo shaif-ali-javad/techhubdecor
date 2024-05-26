@@ -424,60 +424,60 @@
 }
 
 .img-scroll-0 {
-  background-image: url('image/services/rustic-patio-furniture-house-deck-with-vegetation.jpg');
+  background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .img-scroll-1 {
-  background-image: url('image/services/room-house-decorated-with-brazilian-folklore-design.jpg');
+  background-image: url('image/services/img/room-house-decorated-with-brazilian-folklore-design-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .img-scroll-2 {
-  background-image: url('image/services/realistic-modern-interior-design.jpg');
+  background-image: url('image/services/img/realistic-modern-interior-design-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 .img-scroll-3 {
-  background-image: url('image/services/minimalist-kitchen-interior-design.jpg');
+  background-image: url('image/services/img/minimalist-kitchen-interior-design-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .img-scroll-4 {
-  background-image: url('image/services/small-bathroom-with-modern-style-ai-generated.jpg');
+  background-image: url('image/services/img/small-bathroom-with-modern-style-ai-generated-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .img-scroll-5 {
-  background-image: url('image/services/shoe-rack-indoors-still-life.jpg');
+  background-image: url('image/services/img/shoe-rack-indoors-still-life-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .img-scroll-6 {
-  background-image: url('image/services/close-up-details-wood-surface.jpg');
+  background-image: url('image/services/img/close-up-details-wood-surface-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .img-scroll-7 {
-  background-image: url('image/services/view-luxurious-hotel-interior-space.jpg');
+  background-image: url('image/services/img/view-luxurious-hotel-interior-space-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 
 
 .img-scroll-8 {
-  background-image: url('image/services/rustic-patio-furniture-house-deck-with-vegetation.jpg');
+  background-image: url('image/services/img/rustic-patio-furniture-house-deck-with-vegetation-min.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -534,7 +534,7 @@
 /* //////////////////////////////////////////////// */
 /* //////////////////////////////////////////////// */
 
-.navbar-toggler {
+/* .navbar-toggler {
   border: none;
 }
 .navbar-toggler:focus {
@@ -543,7 +543,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #000000;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -560,4 +560,4 @@
     display: block;
     width: 100%;
   }
-}
+} */
