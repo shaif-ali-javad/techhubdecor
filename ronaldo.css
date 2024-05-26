@@ -115,11 +115,11 @@
 } 
 
 *{
-    color: white;
+    /* color: white; */
 }
 
 .lm10{
-    background-color: #09102a;
+    /* background-color: #09102a; */
 }
 
 
@@ -223,25 +223,48 @@
 /* heading */
 
 .cr7{
+  /* width: 80vw; */
     text-align: center;
     padding: 0rem 0 5rem;
+    color: white;
 }
 
 .lm10{
-    padding: 50px;
+    padding: 50px 0 0px;
     margin: auto;
-    margin-top: -10rem;
-    text-align: center;
+    margin-top: 10rem;
+    /* text-align: center; */
+  }
+  
+  .section-6{
+  background-color: #f3f0eb;
 }
 
 
 .section{
-    margin: 10rem 0rem 5rem;
-    background-color: #0c0d35;
-    padding: 3.5rem 2rem 2rem;
+    margin: 5rem 0rem 5rem;
+    padding: 0 2rem;
     border-radius: 20px;
-    border: 1px solid #4456b7;
+    /* border: 1px solid #4456b7; */
+  }
+  
+  .section-4{
+    margin: 0;
+    /* margin: 10rem 0rem 5rem; */
+    /* padding: 3.5rem 2rem 0px; */
+    padding: 6px 12px;
+    text-align: center;
 }
+
+.section-5{
+  margin-top: 5rem;
+  text-align: center;
+  padding: 5rem;
+  background-color: #304561;
+  color: white;
+}
+
+.futer
 
 .img-flui{
     width: 100%;
@@ -268,9 +291,14 @@
 
 .section1{
     /* background-color: #182255; */
-    padding: 1rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
-    border: 1px solid #4456b7;
+    /* border: 1px solid #4456b7; */
+  }
+  
+  .p{
+    padding: .5rem;
+    padding-bottom: .1;
 }
 
 @media screen and (max-width: 1150px) {
@@ -304,8 +332,68 @@
       width: 800px;
     height: 500px;
   }
+  .img-f{
+    width: 800px;
+  height: 500px;
+}
 }
 
 .img-flu{
-    width: 30%;
+    width: 70%;
+}
+
+.img-fl {
+  width: 40%;
+}
+
+.section-3{
+  text-align: center;
+  background-color: #e0dfaf;
+  padding: 7rem;
+  margin-top: 5rem;
+}
+
+
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ffffff;
+  border: none;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.img-f{
+  width: 100%;
+  margin-top: -9.4rem;
 }
