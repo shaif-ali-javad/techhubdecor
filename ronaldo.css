@@ -336,6 +336,19 @@
     width: 800px;
   height: 500px;
 }
+
+.text {
+  width: 100%;
+}
+
+.text h1 {
+  font-size: 25px;
+}
+
+.text p {
+  font-size: 15px;
+}
+
 }
 
 .img-flu{
@@ -441,6 +454,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  top: 50%;
+  left: 50%;
+  width: 70%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
