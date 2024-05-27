@@ -269,3 +269,34 @@
     display: none;
   }
 }
+
+
+.heading0{
+  /* text-align: center; */
+  margin: 10rem 0 5rem;
+}
+
+.tabcontent{
+  text-align: left;
+}
+
+.img{
+width: 10rem;
+}
+
+.img00{
+  border-right: 1px solid black;
+}
+
+
+.img1{
+  transform: translateY(50%);
+}
+
+.img2{
+  transform: translateY(150%);
+}
+
+.img3{
+  transform: translateY(250%);
+}
