@@ -226,8 +226,9 @@
 }
 
 .cr70{
-    width: 500px;
+    width: 90%;
     margin: auto;
+    text-align: justify;
 }
 
   .active0{
@@ -252,4 +253,19 @@
 
 .img-fl {
   width: 40%;
+}
+
+
+.second{
+  display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+  .second{
+    display: block;
+  }
+  .first{
+    display: none;
+  }
 }
