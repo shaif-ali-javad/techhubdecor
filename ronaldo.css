@@ -372,7 +372,13 @@
   .overlay{
     margin-top: -30px;
   }
+.section-3{
+padding: 7rem 0;
 }
+
+
+}
+
 
 .img-flu{
     width: 70%;
@@ -482,6 +488,20 @@
   /* background-color: #304561; */
 }
 
+.overla {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  /* transform: translateY(-100%); */
+  transition: .5s ease;
+  background-color: #304561;
+}
+
 a{
   text-decoration: none;
 }
@@ -490,6 +510,11 @@ a{
   opacity: 1;
   width: 100%;
 }
+
+.containe:hover .overla {
+  opacity: 1;
+}
+
 .containe:hover .h1{
   opacity: 0;
   transition: .5s ease;
@@ -515,6 +540,17 @@ a{
 }
 
 
+@media screen and (max-width: 480px) {
+
+  .containe {
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .image{
+    height: 250px;
+  }
+}
 
 /* //////////////////////////////////////////////// */
 /* //////////////////////////////////////////////// */
