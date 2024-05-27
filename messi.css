@@ -9,7 +9,7 @@
 
 
 .header {
-    background-color: #ffffff;
+    background-color: #09102a;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
     max-width: 100%;
 }
@@ -115,8 +115,11 @@
 } 
 
 *{
-    background-color: #09102a;
-    color: white;
+    /* color: white; */
+}
+
+.lm10{
+    /* background-color: #09102a; */
 }
 
 
@@ -215,6 +218,7 @@
   /* .dropdown:hover .dropbtn {
   } */
 
+
 .cr7{
     margin-top: 10rem;
     text-align: center;
@@ -229,3 +233,23 @@
   .active0{
     background-color: rgba(215, 215, 215, 0.343);
   }
+
+
+
+  .section{
+    margin: 5rem 0rem 5rem;
+    padding: 0 2rem;
+    border-radius: 20px;
+    /* border: 1px solid #4456b7; */
+  }
+
+
+
+  .img-flu{
+    width: 70%;
+}
+
+
+.img-fl {
+  width: 40%;
+}
