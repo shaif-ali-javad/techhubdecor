@@ -15,7 +15,7 @@ body {
   }
   
   a {
-    color: #149ddd;
+    color: #ba68c8;
     text-decoration: none;
   }
   
@@ -43,7 +43,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #149ddd;
+    background: #ba68c8;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -148,7 +148,7 @@ body {
   }
   
   #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #ba68c8;
     color: #fff;
     text-decoration: none;
   }
@@ -229,7 +229,7 @@ body {
   .nav-menu .active i,
   .nav-menu .active:focus i,
   .nav-menu li:hover>a i {
-    color: #149ddd;
+    color: #ba68c8;
   }
   
   /* Mobile Navigation */
@@ -242,7 +242,7 @@ body {
     font-size: 24px;
     transition: all 0.4s;
     outline: none !important;
-    background-color: #149ddd;
+    background-color: #ba68c8;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -308,7 +308,7 @@ body {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
-    border-bottom: 3px solid #149ddd;
+    border-bottom: 3px solid #ba68c8;
   }
   
   @media (min-width: 1024px) {
@@ -361,7 +361,7 @@ body {
     display: block;
     width: 50px;
     height: 3px;
-    background: #149ddd;
+    background: #ba68c8;
     bottom: 0;
     left: 0;
   }
@@ -397,7 +397,7 @@ body {
   .about .content ul i {
     font-size: 16px;
     margin-right: 5px;
-    color: #149ddd;
+    color: #ba68c8;
     line-height: 0;
   }
   
@@ -420,7 +420,7 @@ body {
   .facts .count-box i {
     display: block;
     font-size: 44px;
-    color: #149ddd;
+    color: #ba68c8;
     float: left;
     line-height: 0;
   }
@@ -490,7 +490,7 @@ body {
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #149ddd;
+    background-color: #ba68c8;
   }
   
   /*--------------------------------------------------------------
@@ -586,7 +586,7 @@ body {
   
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
-    color: #149ddd;
+    color: #ba68c8;
   }
   
   .portfolio #portfolio-flters li:last-child {
@@ -676,11 +676,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #149ddd;
+    border: 1px solid #ba68c8;
   }
   
   .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #149ddd;
+    background-color: #ba68c8;
   }
   
   .portfolio-details .portfolio-info {
@@ -734,10 +734,10 @@ body {
     justify-content: center;
     width: 54px;
     height: 54px;
-    background: #149ddd;
+    background: #ba68c8;
     border-radius: 50%;
     transition: 0.5s;
-    border: 1px solid #149ddd;
+    border: 1px solid #ba68c8;
   }
   
   .services .icon i {
@@ -751,7 +751,7 @@ body {
   }
   
   .services .icon-box:hover .icon i {
-    color: #149ddd;
+    color: #ba68c8;
   }
   
   .services .title {
@@ -766,7 +766,7 @@ body {
   }
   
   .services .title a:hover {
-    color: #149ddd;
+    color: #ba68c8;
   }
   
   .services .description {
@@ -860,11 +860,11 @@ body {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #149ddd;
+    border: 1px solid #ba68c8;
   }
   
   .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #149ddd;
+    background-color: #ba68c8;
   }
   
   /*--------------------------------------------------------------
@@ -888,7 +888,7 @@ body {
   
   .contact .info i {
     font-size: 20px;
-    color: #149ddd;
+    color: #ba68c8;
     float: left;
     width: 44px;
     height: 44px;
@@ -939,14 +939,14 @@ body {
   }
   
   .contact .info .social-links a:hover {
-    background: #149ddd;
+    background: #ba68c8;
     color: #fff;
   }
   
   .contact .info .email:hover i,
   .contact .info .address:hover i,
   .contact .info .phone:hover i {
-    background: #149ddd;
+    background: #ba68c8;
     color: #fff;
   }
   
@@ -1034,7 +1034,7 @@ body {
   }
   
   .contact .php-email-form button[type=submit] {
-    background: #149ddd;
+    background: #ba68c8;
     border: 0;
     padding: 10px 24px;
     color: #fff;

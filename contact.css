@@ -16,7 +16,7 @@
 
 .header.sticky {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
-   background-color: #09102a;
+   background-color: #ffffff;
 }
 
 .header .logo {
@@ -85,7 +85,8 @@
 }
 
 .header .navbar-nav li:hover {
-    background-color: rgba(0, 0, 0, 0.343);
+  transition: 500ms;
+  background-color: rgba(215, 215, 215, 0.343);
     border-radius: 3rem;
 }
 
@@ -166,60 +167,6 @@
   }
   
 
-  /* Style The Dropdown Button */
-  .dropbtn {
-    color: white;
-    padding: 16px;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #212121;
-    padding: 5px;
-    height: 432px;
-    min-width: 207px;
-    left: -70%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: white;
-    padding: 10px 16px;
-    text-decoration: none;
-    text-align: left;
-    display: block;
-  }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #353535;
-    text-decoration: none;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  /* .dropdown:hover .dropbtn {
-  } */
-
-
-
 .image0 {
     position: relative; /* Add position relative to make the ::before pseudo-element position properly */
     height: 30rem;
@@ -258,3 +205,42 @@
 .image0 .p{
     transform: translateY(35%);
 }
+
+
+.footer{
+    padding: 2rem 1rem 0;
+    background-color: black;
+  }
+
+
+
+  
+.a{
+    margin: .3rem;
+    color: white;
+  }
+  
+  .a:hover{
+    margin: .3rem;
+    color: white;
+  }
+  
+  .bi{
+    color: #000;
+    background-color: white;
+    padding: .3rem .5em;
+    border-radius: 40%;
+  }
+  
+  .saperate p{
+    margin-top: 1rem;
+  }
+  
+  .saperate:hover .bi{
+    background-color:#557bac ;
+    color: white;
+  }
+  
+  .saperate h2 {
+    margin-bottom: 2rem;
+  }

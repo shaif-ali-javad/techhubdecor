@@ -1,0 +1,25 @@
+
+.tabcontent{
+    text-align: left;
+}
+
+.tabcontent-0{
+    margin-bottom: 300px;
+}
+
+.tabcontent-1{
+    margin-bottom: 430px;
+}
+
+@media screen and (max-width: 1140px) {
+    
+    .tabcontent-0{
+        margin-bottom: 0px;
+    }
+
+    .tabcontent-1{
+        margin-bottom: 0px;
+    }
+
+}
+
