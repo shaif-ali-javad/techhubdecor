@@ -11,15 +11,38 @@
     margin-bottom: 430px;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1030px) {
     
-    .tabcontent-0{
-        margin-bottom: 0px;
+    .contect-0{
+        margin-left: 50px;
     }
 
-    .tabcontent-1{
-        margin-bottom: 0px;
-    }
+    /* .tabcontent-1{
+        margin-left: 430px;
+    } */
 
 }
 
+@media screen and (max-width: 576px) {
+/*     
+    .img0{
+        margin-left: 0px;
+    } */
+
+    /* .tabcontent-1{
+        margin-left: 430px;
+    } */
+
+    
+    .contect-0{
+        margin-left: 0px;
+    }
+
+    .tabcontent-0{
+        margin-bottom: 0px;
+    }
+    
+    .tabcontent-1{
+        margin-bottom: 0px;
+    }
+}
